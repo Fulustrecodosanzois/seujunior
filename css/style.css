@@ -1,0 +1,56 @@
+.borda {
+    border: 1px solid black;
+}
+
+.borda2 {
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.borda3 {
+    border: 1px solid rgb(0, 167, 31);
+}
+
+/* ------------ STYLE */
+
+.fundo_padrao {
+    background-color: #4a84c7;
+}
+.fundo_form {
+    background-color: #efe9e9;
+}
+
+.fundo_nav {
+    background-color: #e1e1e1;
+}
+
+.iconeG {
+    font-size: 70px;
+}
+
+.linha {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, transparent, #ffffff, transparent);
+}
+
+.fonte {
+    color: #504099;
+}
+
+.navbar {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><circle cx="8" cy="8" r="8" fill="%23ffffff"/><circle cx="24" cy="24" r="8" fill="%23ffffff"/><circle cx="40" cy="8" r="8" fill="%23ffffff"/><circle cx="56" cy="24" r="8" fill="%23ffffff"/><circle cx="8" cy="40" r="8" fill="%23ffffff"/><circle cx="24" cy="56" r="8" fill="%23ffffff"/><circle cx="40" cy="40" r="8" fill="%23ffffff"/><circle cx="56" cy="56" r="8" fill="%23ffffff"/><circle cx="8" cy="24" r="8" fill="%23ffffff"/><circle cx="24" cy="8" r="8" fill="%23ffffff"/><circle cx="40" cy="24" r="8" fill="%23ffffff"/><circle cx="56" cy="40" r="8" fill="%23ffffff"/></svg>');
+    background-size: 18px 18px;
+}
+
+.fonte_dev {
+    font-size: 10px;
+}
+
+.navbar-content {
+    padding: 10px;
+    color: #fff; /* Cor do texto */
+}
+
+.espaco-tx {
+    line-height: 1.5;
+}
