@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const mensagem = document.querySelector(".mensagem").value;
       const escolha = document.querySelector(".escolha").value;
 
-      const mensagemFormatada = `Seja Bem Vindo(a)!%0A%0A**Informações do Contato**%0A%0A*Nome:* ${nome}%0A%0A*Telefone:* ${telefone}%0A%0A*Tipo de Serviço:* ${escolha}%0A%0A*Mensagem:*%0A%0A${mensagem}`;
+      const mensagemFormatada = `Seja Bem Vindo(a) a   WR Refrigeração!%0A%0A**Informações do Contato**%0A%0A*Nome:* ${nome}%0A%0A*Telefone:* ${telefone}%0A%0A*Tipo de Serviço:* ${escolha}%0A%0A*Mensagem:*%0A%0A${mensagem}`;
 
       const numeroWhatsApp = "5598988257268";
 
