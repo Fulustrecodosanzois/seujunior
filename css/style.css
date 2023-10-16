@@ -57,4 +57,5 @@
 
 .btn:hover {
     background-color: #4a84c7!important;
+    scale: 1.1;
 }
