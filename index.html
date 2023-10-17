@@ -113,7 +113,7 @@
 
             <!-- ----------------------  FORMULÁRIO -->
 
-            <form class="row g-3 fundo_form p-3 shadow-lg rounded-4 was-validated" id="meuForm">
+            <form class="row g-3 fundo_form p-3 shadow-lg rounded-4" id="meuForm">
               <div class="">
                 <div class="form-floating">
                   <input type="text" class="form-control nome" id="validationDefault01" required>
@@ -126,14 +126,16 @@
                   <label for="validationDefault03" class="form-label">Telefone</label>
                 </div>
               </div>
-              <select class="form-select escolha" id="validationDefault04" required>
-                <option selected disabled value="">Qual serviço desejado?</option>
-                <option value="Reforma">Reforma</option>
-                <option value="Limpeza">Troca de Gás</option>
-                <option value="Reparo">Pintura</option>
-                <option value="Manutenção">Manutenção</option>
-                <option value="Troca de Peças">Troca de Peças</option>
-              </select>
+              <div>
+                <select class="form-select escolha" id="validationDefault04" required>
+                  <option selected disabled value="">Qual serviço desejado?</option>
+                  <option value="Reforma">Reforma</option>
+                  <option value="Limpeza">Troca de Gás</option>
+                  <option value="Reparo">Pintura</option>
+                  <option value="Manutenção">Manutenção</option>
+                  <option value="Troca de Peças">Troca de Peças</option>
+                </select>
+              </div>
               <div class="mb-3">
                 <textarea class="form-control mensagem" id="validationTextarea" placeholder="Como posso ajudar?"
                   required></textarea>
