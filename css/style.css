@@ -15,6 +15,7 @@
 .fundo_padrao {
     background-color: #4a84c7;
 }
+
 .fundo_form {
     background-color: #efe9e9;
 }
@@ -48,7 +49,8 @@
 
 .navbar-content {
     padding: 10px;
-    color: #fff; /* Cor do texto */
+    color: #fff;
+    /* Cor do texto */
 }
 
 .espaco-tx {
@@ -56,6 +58,45 @@
 }
 
 .btn:hover {
-    background-color: #4a84c7!important;
+    background-color: #4a84c7 !important;
     scale: 1.1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-group {
+    position: relative;
+}
+
+label {
+    font-weight: bolder;
+}
+
+.form-control:focus+.floating-label,
+.form-control:not(:placeholder-shown)+.floating-label {
+    
+    font-size: 10px;
 }
